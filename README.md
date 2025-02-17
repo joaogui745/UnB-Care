@@ -1,11 +1,17 @@
-## UnBCare: Sistema de Gerenciamento de Medicamentos
+# UnBCare: Gerenciamento de Medicamentos
 
-O projeto UnBCare, escrito em Haskell, tem como objetivo auxiliar na gestão de medicamentos. Ele oferece funcionalidades que simulam o processo de compra, administração e controle de estoque de medicamentos, além de permitir a geração de planos de administração e a validação da conformidade dos dados.
+Sistema Haskell para gestão de medicamentos, simulando compra, administração, estoque, planos e validação de dados.
 
-O arquivo `ModeloDados.hs` define os tipos de dados que representam as informações do sistema. No arquivo `UnBCare.hs`, encontra-se a implementação das funções que manipulam esses dados. Por fim, o arquivo `Testes.hs` contém uma série de dados para testar o funcionamento das funções implementadas no sistema.
+## Estrutura
 
-Para explorar e testar o projeto UnBCare interativamente, você pode utilizar o GHCi, o interpretador interativo do Haskell. Uma vez no ambiente interativo, carregue os arquivos `UnBCare.hs` para usar as funções e os dados do projeto.
+-   `ModeloDados.hs`: Define os tipos de dados do sistema.
+-   `UnBCare.hs`: Implementa as funções de manipulação de dados.
+-   `Testes.hs`: Contém dados para teste das funções.
 
-```haskell
-:l UnBCare.hs
-```
+## Execução
+
+1.  Instale GHCi (interpretador Haskell).
+2.  Navegue até o diretório do projeto.
+3.  Inicie o GHCi.
+4.  Carregue os arquivos: `:l UnBCare.hs`.
+5.  Use o GHCi para explorar e testar o sistema interativamente.
